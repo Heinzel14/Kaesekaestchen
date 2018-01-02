@@ -1,0 +1,8 @@
+players = []
+
+class player:
+
+    def __init__(self, name):
+        self.name = name
+        players.append(self)
+        self.points = 0
